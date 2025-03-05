@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{%load static%}
+
+{% block content %}
+
+ <!-- Contact Section -->
+ <section class="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-8">
+    <div class="md:w-1/2">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900">
+            Contact us We’re just a Conversation away!
+        </h1>
+        <p class="mt-6 text-gray-700 text-lg leading-loose">
+            At <span class="font-bold"> Teqtronics</span>, we are always here to help! Whether you need troubleshooting, optimization, or expert tech solutions, our team is just a click away.
+            Get solutions tailored to your tech needs. We optimize for maximum efficiency and blend global expertise with cutting-edge technology.
+            Get in Touch Today for a Tech-Savvy Experience Like Never Before!
+        </p>
+    </div>
+    <div class="md:w-1/2">
+        <img src="{%static 'img/home-image.jpg'%}" alt="Team Working" class="rounded-lg shadow-lg">
+    </div>
+</section>
+
+<!-- Contact Information -->
+<section class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-center text-3xl md:text-5xl font-bold text-gray-900">Contact - Drop us a line to Start a Project with us</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-0 text-center md:text-left m-28 mt-12">
+        <!-- Top Left -->
+        <div class="flex items-center space-x-4 p-6 border-r border-b border-gray-300">
+            <span class="text-teal-600 text-4xl mr-2"><i class="fas fa-pencil-alt"></i></span>
+            <div>
+                <p class="text-gray-600 text-xl">Ready to share a Project?</p>
+                <p class="font-bold text-3xl mt-4"><a href="{%url 'contactform' %}">Submit a Form</a></p>
+            </div>
+        </div>
+    
+        <!-- Top Right -->
+        <div class="flex items-center space-x-4 p-6 border-b border-gray-300">
+            <span class="text-teal-600 text-4xl mr-2"><i class="fas fa-envelope"></i></span>
+            <div>
+                <p class="text-gray-600 text-xl">Share a detailed specification</p>
+                <p class="font-bold text-3xl mt-4">info@Optimumtech.com</p>
+            </div>
+        </div>
+    
+        <!-- Bottom Left -->
+        <div class="flex items-center space-x-4 p-6 border-r border-gray-300">
+            <span class="text-teal-600 text-4xl mr-2"><i class="fas fa-envelope"></i></span>
+            <div>
+                <p class="text-gray-600 text-xl">Connect on WhatsApp</p>
+                <p class="font-bold text-3xl mt-4">+92 302 6650909</p>
+            </div>
+        </div>
+    
+        <!-- Bottom Right -->
+        <div class="flex items-center space-x-4 p-6">
+            <span class="text-teal-600 text-4xl mr-2"><i class="fas fa-envelope"></i></span>
+            <div>
+                <p class="text-gray-600 text-xl">Begin a quick discussion</p>
+                <p class="font-bold text-3xl mt-4">Live Chat with Us</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+{% endblock %}

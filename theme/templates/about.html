@@ -1,0 +1,281 @@
+{% extends "base.html" %}
+
+{%load static%}
+
+{% block content %}
+
+<div class="max-w-6xl mx-auto px-3 py-12 text-center">
+    <p class="text-gray-600 text-lg font-semibold">We design, develop and deploy digital products worldwide.    </p>
+    
+    <h1 class="text-xl md:text-6xl blur-[.6px] font-bold text-gray-900 mt-4">
+        Our Greatest Asset is Our <br>
+        <span class="text-gray-900"> People, Vision, and Values</span>
+    </h1>
+    
+    <p class="text-gray-700 mt-6 text-justify text-lg leading-relaxed">
+        <span class="font-bold">TEQTRONICS,</span>
+         founded in 2018, is a leader in innovation within the Information Technology and Software sector.
+          As a cutting-edge, forward-thinking company, we specialize in providing state-of-the-art solutions
+           designed to meet the diverse needs of our clients. At TEQTRONICS, we excel in mobile development 
+           using Flutter, delivering smooth, high-performance applications that seamlessly work across multiple 
+           platforms. Our expertise also extends to creating responsive, visually captivating WordPress websites, 
+           leveraging the full potential of this versatile platform. Additionally, we specialize in building 
+           powerful web applications using Laravel and Python, capitalizing on these frameworks to deliver scalable,
+            high-performance solutions. Our team at TEQTRONICS combines technical excellence with creative vision, 
+            turning ideas into reality. We're committed to staying ahead of the curve in technology, ensuring our 
+            clients receive the best solutions to thrive in a digital-first world.
+ </p>
+ <video src="{%static 'img/video.mp4'%}" class="mt-6 w-full" loop muted autoplay></video>
+
+
+    <!-- content section -->
+    <div class="container mx-auto text-left py-12">
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- Who We Are -->
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Who We Are</h2>
+                <p class="text-lg text-gray-700">
+                    Founded in 2018, <span class="font-semibold">TEQTRONICS</span> is a dynamic and innovative Information Technology company.
+                     Driven by a passion for technological advancement, our team stays at the forefront of 
+                     emerging trends, including Artificial Intelligence (AI). We take pride in blending technical 
+                     expertise with creative vision, delivering exceptional results for every project.
+                </p>
+            </div>
+            <!-- What We Offer -->
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">What We Offer</h2>
+                <p class="text-lg text-gray-700">
+                    At <span class="font-semibold">TEQTRONICS</span>, we specialize in delivering forward-thinking solutions to meet a variety of client
+                     needs. Our expertise includes mobile app development with Flutter, ensuring seamless and 
+                     efficient cross-platform applications. We also excel in designing visually stunning 
+                     WordPress websites, utilizing the versatility of the platform to its fullest. Furthermore,
+                      our team is skilled in developing robust web applications using Laravel and Python, and 
+                      integrating AI technologies into software solutions. Our commitment to excellence drives us 
+                      to deliver optimal technology solutions that empower clients to succeed in the digital 
+                      landscape.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- card  -->
+    <div class="container mx-auto  py-12">
+        <!-- Heading -->
+        <h2 class="text-5xl font-bold text-center text-gray-900 mb-12">
+            Belief of Every TeqTronics Employee
+        </h2>
+
+        <!-- Three Column Grid -->
+        <div class="grid md:grid-cols-3 gap-1 text-left">
+            <!-- Client-centric Approach -->
+            <div class="p-6">
+                <div class="text-red-500 text-4xl mb-4">
+                    🔴 <!-- Replace with actual icon -->
+                </div>
+                <h3 class="text-[1.6rem] font-bold text-gray-900 mb-3">Client-centric Approach</h3>
+                <p class="text-gray-700 text-justify">
+                    At <span class="font-semibold">TEQTRONICS</span>, the client always comes first. Our approach 
+                    goes beyond focusing solely on direct customers; we think from your end customers' perspective.
+                    We analyze their pain points and devise solutions that not only solve core problems but also
+                    drive your business forward.
+                </p>
+            </div>
+
+            <!-- Effective Collaboration -->
+            <div class="p-6">
+                <div class="text-purple-500 text-4xl mb-4">
+                    🟣 <!-- Replace with actual icon -->
+                </div>
+                <h3 class="text-[1.6rem] font-bold text-gray-900 mb-3">Effective Collaboration</h3>
+                <p class="text-gray-700 text-justify">
+                    We believe communication is key to successful collaboration. Sometimes we over-communicate,
+                     but we do so because it brings exceptional results. Regardless of the distance, we stay
+                      connected through various platforms and mediums that promote transparency, effectiveness,
+                       and accuracy in every project.
+
+                </p>
+            </div>
+
+            <!-- Quality Delivered in Time -->
+            <div class="p-6">
+                <div class="text-blue-500 text-4xl mb-4">
+                    🔵 <!-- Replace with actual icon -->
+                </div>
+                <h3 class="text-[1.6rem] font-bold text-gray-900 mb-3">Quality Delivered in Time</h3>
+                <p class="text-gray-700 text-justify">
+                    With over two decades of experience in offshore IT software development, TEQTRONICS has honed 
+                    its internal frameworks and built state-of-the-art infrastructure to consistently deliver 
+                    high-quality solutions. We’ve learned how to avoid failures and replicate successes, 
+                    and we don't just claim quality—we define it and deliver it on time.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <img src="{%static 'img/about.jpg'%}" alt="">
+
+     <!-- compnay stats -->
+     <section class="min-h-fit px-6 py-16 flex flex-col items-center text-center">
+        <!-- Heading -->
+        <h2 class="text-[2.3rem] max-w-4xl max-sm:text-[1.5rem] font-bold text-[#252B33] leading-tight">
+            We've helped businesses increase their revenue <br>
+            on an average by 90% in their first year with us!
+        </h2>
+
+        <!-- Stats Section -->
+        <div class="flex flex-wrap justify-center items-center gap-y-6 gap-x-14 mt-10">
+            <!-- Stat 1 -->
+            <div class="text-center">
+                <h3 class=" md:text-[5.1rem] font-extrabold text-[#252B33]">2000+</h3>
+                <p class="text-[#555] text-[1.1rem]">Satisfied Clients Across the Globe</p>
+            </div>
+
+            <!-- Stat 2 -->
+            <div class="text-center">
+                <h3 class=" md:text-[5.1rem] font-extrabold text-[#252B33]">5500+</h3>
+                <p class="text-[#555] text-[1.1rem]">Projects Delivered Successfully</p>
+            </div>
+
+            <!-- Stat 3 -->
+            <div class="text-center">
+                <h3 class=" md:text-[5.1rem] font-extrabold text-[#252B33]">100+</h3>
+                <p class="text-[#555] text-[1.1rem]">Experts Under the Same Roof</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- swiperd user -->
+    <div class="container mx-auto px-6 py-12">
+        <!-- Section Heading -->
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Our Leaders</h2>
+
+        <!-- Swiper Container -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                
+                <!-- Leader 1 -->
+                <div class="swiper-slide">
+                    <div class="relative bg-white rounded-lg shadow-lg overflow-hidden w-80">
+                        <img src="{%static 'img/SWIPERIMAG4.png'%}" alt="Usman Aftab" class="w-full h-auto">
+                        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-4">
+                            <h3 class="text-lg font-semibold">Usman Aftab</h3>
+                            <p class="text-blue-400 text-sm">CTO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leader 2 -->
+                <div class="swiper-slide">
+                    <div class="relative bg-white rounded-lg shadow-lg overflow-hidden w-80">
+                        <img src="{%static 'img/SWIPERIMAG5.webp'%}" alt="Saim Zafar" class="w-full h-auto">
+                        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-4">
+                            <h3 class="text-lg font-semibold">Saim Zafar</h3>
+                            <p class="text-blue-400 text-sm">Business Development Executive</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leader 3 -->
+                <div class="swiper-slide">
+                    <div class="relative bg-white rounded-lg shadow-lg overflow-hidden w-80">
+                        <img src="{%static 'img/SWIPERIMAGE2.webp'%}" alt="Nawaz Anwar" class="w-full h-auto">
+                        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-4">
+                            <h3 class="text-lg font-semibold">Nawaz Anwar</h3>
+                            <p class="text-blue-400 text-sm">Senior Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="relative bg-white rounded-lg shadow-lg overflow-hidden w-80">
+                        <img src="{%static 'img/SWIPERIMAGE3.webp'%}" alt="Nawaz Anwar" class="w-full h-auto">
+                        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white p-4">
+                            <h3 class="text-lg font-semibold">Nawaz Anwar</h3>
+                            <p class="text-blue-400 text-sm">Senior Developer</p>
+                        </div>
+                    </div>
+                </div>
+              
+                
+
+            </div>
+
+            <!-- Swiper Pagination & Navigation -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+
+    <div class="max-w-5xl mx-auto grid m-5 grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        
+        <!-- Text Section -->
+        <div>
+            <h2 class="text-4xl font-bold text-left text-gray-900">We Are Verified From</h2>
+            <p class="mt-4 text-gray-700 text-left text-lg leading-relaxed">
+                “Choose <span class="font-bold">TeqTronics</span> with confidence – a trusted agency proudly verified by <span class="font-semibold">SSCP, FBR, FITCON, and PASHA</span>. Our commitment to excellence is backed by industry-leading certifications, ensuring reliability and trust. SSCP certification guarantees top-tier security, FBR recognition highlights our financial integrity, FITCON accreditation reflects our operational excellence, and PASHA’s endorsement showcases our technological expertise. Partner with TeqTronics, where every aspect of our work is officially verified, giving you the assurance of quality, security, and success.”
+            </p>
+        </div>
+
+        <!-- Image Section -->
+        <div>
+            <img src="{%static 'img/verify.jpg'%}" alt="Verification Image" class="rounded-lg shadow-lg">
+        </div>
+
+    </div>
+    <div class="max-w-5xl mx-auto grid m-5 grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        
+        <!-- Text Section -->
+        <div>
+            <h2 class="text-4xl font-bold text-left text-gray-900">Our Achievements</h2>
+            <p class="mt-4 text-gray-700 text-left text-lg leading-relaxed">
+                <span class="uppercase">O</span>VER THE YEARS, TEQTRONICS SYSTEMS &
+                TRAINING HAS SUCCESSFULLY TRAINED THOUSANDS OF STUDENTS. MANY OF OUR
+                ALUMNI HAVE GONE ON TO ACHIEVE REMARKABLE SUCCESS IN THEIR CAREERS.
+                SOME HAVE EMBRACED FREELANCING, OTHERS HAVE SECURED FULFILLING JOBS,
+                AND A SIGNIFICANT NUMBER HAVE STARTED THEIR OWN BUSINESSES. OUR
+                TRAINING PROGRAMS HAVE BEEN INSTRUMENTAL IN THEIR JOURNEYS TOWARD
+                SUCCESS.
+     </p>
+        </div>
+
+        <!-- Image Section -->
+        <div>
+            <img src="{%static 'img/achieve.jpg'%}" alt="Verification Image" class="rounded-lg shadow-lg">
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<!-- Swiper.js JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+        },
+    });
+</script>
+
+{%endblock%}
